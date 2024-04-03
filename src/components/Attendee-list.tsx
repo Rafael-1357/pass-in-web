@@ -15,7 +15,6 @@ Dayjs.extend(relativeTime)
 Dayjs.locale('pt-br')
 
 export function AttendeeList() {
-  const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
 
   const totalPages = Math.ceil(attendees.length / 10)
